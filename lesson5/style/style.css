@@ -1,0 +1,117 @@
+.header {
+    font-family: bpg nino mtavruli;
+    text-align: center;
+    font-size: 25px;
+    background-color: #27F554;
+    width: 400px;
+    margin: auto;
+    border-radius: 20px;
+    padding: 1px;
+}
+
+.photos {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.photos img {
+    width: 450px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.photos img[alt="image1"] {
+
+    border: 20px solid #bb0617;
+    box-shadow: #bb0617 0px 0px 20px;
+}
+
+.photos img[alt="image2"] {
+
+    border: 5px solid #abc3df;
+    box-shadow: #abc3df 0px 0px 20px;
+}
+
+.photos img[alt="image3"] {
+
+    border: 5px solid #f2f5a9;
+    box-shadow: #f2f5a9 15px 0px 50px;
+}
+
+.tekstebi {
+    display: flex;
+    justify-content: space-between;
+}
+
+.textleft {
+    font-family: bpg nino mtavruli;
+    font-size: 20px;
+    width: 400px;
+    text-align: left;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #27F5BB;
+}
+.textright {
+    font-family: bpg nino mtavruli;
+    font-size: 20px;
+    width: 400px;
+    text-align: right;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #27F5BB;
+}
+
+.cxrili table {
+    border: 2px dashed black;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-family: bpg nino mtavruli;
+    font-size: 20px;
+    width: 500px;
+}
+
+.cxrili th {
+    border: 2px solid black;
+    text-align: center;
+    background-color: #27F5BB;
+}
+.cxrili td {
+    border: 2px dashed black;
+    text-align: center;
+}
+
+.feedback {
+    font-family: bpg nino mtavruli;
+    font-size: 20px;
+    margin-top: 20px;
+    background-color: #7aaebd;
+    padding: 10px;
+    width: 320px;
+    border-radius: 20px;
+    margin-left: auto;
+}
+
+.feedback input[type="text"] {
+    font-family: bpg nino mtavruli;
+    font-size: 20px;
+    border-radius: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 10px;
+    padding: 5px;
+}
+.feedback input[type="button"] {
+    font-family: bpg nino mtavruli;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #27F554;
+    width: 150px;
+    display: flex;
+    margin: auto; 
+    cursor: pointer;
+    margin-top: 10px;
+
+  }
