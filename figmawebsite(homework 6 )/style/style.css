@@ -1,0 +1,84 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Bartle&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+</style>
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.bricks {
+    width: 100%;
+}
+
+.headtext {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    font-size: 24px;
+    font-family: "Roboto", sans-serif;
+    text-decoration: underline;
+    text-decoration-thickness: 4px;
+    text-underline-offset: 10px; 
+
+}
+
+.centeredtext {
+    display: flex;
+    justify-content: center;
+    font-size: 64px;
+    font-family: "Roboto", sans-serif;
+}
+
+.centeredimages {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 20px;
+    
+}
+
+.centerimage {
+    display: flex;
+    justify-content: center;
+
+}
+
+.dots {
+    margin-top: 0px;
+    font-size: 30px;
+    line-height: 0.65;
+}
+
+.paragraph {
+    width: 55%;
+    margin: auto;
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 10px;
+
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+    border: 10px solid black;
+    background-color: black;
+}
+
+input[type="E-mail"], input[type="text"] {
+    font-size: 20px;
+    color: black;
+
+    
+}
+
+
+
+
+
+
