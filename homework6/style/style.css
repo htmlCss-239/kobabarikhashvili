@@ -1,0 +1,140 @@
+body {
+    background-color: #f0f8ff;
+    margin: 0;
+
+}
+
+.satauri {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F5276C;
+    
+}
+
+.satauri h1 {
+    font-family: bpg nino mtavruli;
+    text-align: center;
+    background-color: #F5B027;
+    width: 300px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.satauri p {
+    font-family: bpg nino mtavruli;
+    font-size: 20px;
+    margin: 20px;
+    width: 50%;
+    background-color: #F5B027;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.photos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px;
+
+
+}
+
+.photos img {
+    width: 350px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: 2px solid black;
+}
+
+.photos img:hover {
+    margin: -15px;
+}
+
+.info {
+    font-family: bpg nino mtavruli;
+    font-size: 20px;
+    margin: 20px;
+    width: 50%;
+    background-color: #F5B027;
+    padding: 10px;
+    border-radius: 20px;
+
+}
+
+
+
+.cxrili table {
+    font-family: bpg nino mtavruli;
+    border-radius: 20px;
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+
+.cxrili table, th, td {
+    padding: 3px;
+}
+
+.cxrili th {
+    background-color: #F5B027;
+}
+
+.container {
+    display: flex;
+    gap: 50px;
+    padding: 20px;
+}
+
+.cxrili tr {
+    border: 1px solid black;
+}
+
+.cxrili td:hover {
+    background-color: grey;
+    color: #f0f8ff;
+}
+
+.footer {
+    text-align: center;
+    font-family: bpg nino mtavruli;
+    padding: 10px;
+}
+
+.footer p {
+    background-color: red;
+    width: 100px;
+    margin: auto;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.footer input[type="text"] {
+    padding: 5px;
+    width: 200px;
+}
+
+.footer input[type="text"]:hover {
+    border-radius: 20px;
+    background-color: lightgrey;
+}
+
+.footer input[type="text"]:focus {
+    background-color: rgb(156, 156, 226);
+}
+
+.footer input[type="submit"] {
+    padding: 5px;
+    background-color: #F5B027;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+.footer input[type="submit"]:hover {
+    background-color: grey;
+    color: #f0f8ff;
+    cursor: pointer;
+}
+
+.footer input[type="submit"]:active {
+    background-color: green;
+}
