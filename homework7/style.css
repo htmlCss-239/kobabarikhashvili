@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+
+.navigation {
+    background-color: #333;
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 3px black;
+    position: sticky;
+    top: 0;
+}
+
+.navigation nav {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    
+}
+
+.navigation a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 20px;
+    
+}
+
+.navigation a:hover {
+    background-color: black;
+    cursor: pointer;
+}
+
+
+.panel {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 20px;
+    background-color: #7CF7B1;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 20px;
+    border: #333 solid 1px;
+    z-index: 3;
+
+}
+
+.panel img {
+    width: 50px;
+}
+
+.paragraphebi {
+    width: 60%;
+    margin: auto;
+    font-size: 18px;
+    color: #333;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+.paragraphebi p {
+    margin-bottom: 200px;
+    line-height: 1.6;
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    font-family: "Open Sans", sans-serif;
+    border: 2px solid #333;
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+}
+
+tr,td,th {
+    border: 1px solid #333;
+    
+}
+
+td:hover {
+    background-color: #6f6f6f;
+    color: white;
+    transform: scale(1.1);
+    border-radius: 20px;
+}
+
+.comment {
+    border: 5px #e17c68 solid;
+    width: 400px;
+    height: 250px;
+    display: flex;
+    gap: 20px;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px rgb(0, 0, 0);
+    margin: auto;
+}
+
+#pfp {
+    width: 70px;
+    border-radius: 50%;
+}
+
+.textcomment {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+}
+
+#stars {
+    color: #ff0000;
+    font-size: 25apx;
+    margin-top: -10px;
+}
+
+#review {
+    width: 250px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    border-radius: 10px;
+    margin-top: -10px;
+}
+
+.leftside {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#dangerbtn {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    box-shadow: 0px 0px 3px rgb(0, 0, 0);
+
+}
+
+#sendbtn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100px;
+    box-shadow: 0px 0px 3px rgb(0, 0, 0);
+
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    }
+
+.footercontent {
+    background-color: #333;
+    height: 300px;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px black;
+    position: relative;
+    z-index: 1;
+}
+
+.lefttexts {
+    color: rgb(209, 209, 209);
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    padding: 20px;
+    position: absolute;
+    text-align: center;
+
+}
+
+.lefttexts h1 {
+    font-size: 20px;
+}
+
+.lefttexts p {
+    font-size: 15px;
+    margin: 10px;
+}
+
+.emailaddress { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 50px;
+}
+
+.emailaddress h1 {
+    color: rgb(209, 209, 209);
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.emailaddress input {
+    width: 400px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+    margin: 20px;
+}
+
+.emailaddress button {
+    width: 150px;
+    height: 35px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #333;
+    border: white solid 1px;
+    color: white;
+    margin: 20px;
+}
+
+.righttexts {
+    color: rgb(209, 209, 209);
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 50px;
+    top: 20px;
+    text-align: center;
+    padding: 20px;
+
+}
