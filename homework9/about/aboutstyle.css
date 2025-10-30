@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Momo+Signature&display=swap');
+
+body {
+    margin: 0;
+}
+
+
+header {
+    margin: 0;
+}
+
+main {
+    display: flex;
+}
+
+.navigation {
+    display: flex;
+    width: 100%;
+    height: 70px;
+    background-color: rgb(71, 71, 71);
+    justify-content: space-between;
+    box-shadow: 0px 0px 10px black;
+    z-index: 3;
+    position: sticky;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    gap: 30px;
+    padding: 20px;
+    
+}
+
+.logo h1 {
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: rgb(255, 255, 255);
+        font-size: 50px;
+}
+
+.logo img {
+    width: 60px;
+    height: 60px;
+}
+
+.navmenu {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 20px;
+}
+
+.navmenu p {
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: #8956FB;
+        font-size: 30px;
+        background-color: rgb(255, 255, 255);
+        padding: 10px;
+        border-radius: 30px;
+        transform: scale(1);
+        transition: transform 0.3s ease;
+}
+
+.navmenu a {
+            font-family: "Bebas Neue", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: #8956FB;
+        font-size: 30px;
+        background-color: rgb(255, 255, 255);
+        padding: 10px;
+        border-radius: 30px;
+        transform: scale(1);
+        transition: transform 0.3s ease;
+        text-decoration: none;
+}
+
+.navmenu a:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    color: black;
+    background-color: #8956FB;
+}
+
+.navmenu p:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    color: black;
+    background-color: #8956FB;
+}
+
+main {
+    display: flex;
+    text-align: center;
+}
+
+main p {
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: #8956FB;
+        font-size: 50px;
+        text-shadow: 1px 0px 2px black;
+        background-color: rgb(213, 213, 213);
+        border-radius: 20px;
+}
