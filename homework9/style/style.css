@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Momo+Signature&display=swap');
+
+body {
+    margin: 0;
+}
+
+
+header {
+    margin: 0;
+}
+
+main {
+    display: flex;
+}
+
+.navigation {
+    display: flex;
+    width: 100%;
+    height: 70px;
+    background-color: rgb(71, 71, 71);
+    justify-content: space-between;
+    box-shadow: 0px 0px 10px black;
+    z-index: 3;
+    position: sticky;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    gap: 30px;
+    padding: 20px;
+    
+}
+
+.logo h1 {
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: rgb(255, 255, 255);
+        font-size: 50px;
+}
+
+.logo img {
+    width: 60px;
+    height: 60px;
+}
+
+.navmenu {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 20px;
+}
+
+.navmenu p {
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: #8956FB;
+        font-size: 30px;
+        background-color: rgb(255, 255, 255);
+        padding: 10px;
+        border-radius: 30px;
+        transform: scale(1);
+        transition: transform 0.3s ease;
+}
+
+.navmenu a {
+            font-family: "Bebas Neue", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: #8956FB;
+        font-size: 30px;
+        background-color: rgb(255, 255, 255);
+        padding: 10px;
+        border-radius: 30px;
+        transform: scale(1);
+        transition: transform 0.3s ease;
+        text-decoration: none;
+}
+
+.navmenu a:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    color: black;
+    background-color: #8956FB;
+}
+
+.navmenu p:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    color: black;
+    background-color: #8956FB;
+}
+
+.banner {
+    display: flex;
+    margin: 0;
+    width: 100%;
+    height: 500px;
+    z-index: 1;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.photosright {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    height: 1150px;
+    width: 400px;
+    margin-left: auto;
+    background-color: rgb(71, 71, 71);
+    border-left: 2px solid white;
+    box-shadow: 0px 0px 20px black;
+
+}
+
+#livenow {
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 40px;
+        letter-spacing: 10px;
+        color: white;
+        background-color: rgb(132, 132, 132);
+        border-radius: 20px;
+        width: 300px;
+        box-shadow: 0px 0px 20px red;
+        
+}
+
+.streams {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    padding: 20px;
+    gap: 40px;
+    
+}
+
+.stream {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(162, 162, 162);
+    border-radius: 20px;
+    
+    
+}
+
+.stream p {
+    color: white;
+    text-shadow: 0px 0px 5px black;
+    font-size: 20px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    color: white;
+    
+}
+
+.stream img {
+    transform: scale(1);
+    transition: transform 0.3s ease-out, box-shadow 0.3s ease-out, border-radius 0.3s ease-out;
+}
+.stream img:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px black;
+}
+
+.centerphotos {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.section-title {
+    display: flex;
+    margin-right: auto;
+    font-size: 20px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    color: black;
+    font-size: 50px;
+    gap: 20px;
+    padding: 20px;
+}
+
+.purple-word {
+    color: #8956FB;
+}
+
+.categories {
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    background-color: rgb(162, 162, 162);
+    width: 900px;
+    border-radius: 20px;
+    margin-right: auto;
+}
+
+.categories img {
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+    box-shadow: 0px 0px 20px black;
+}
+
+.categories img:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #8956FB;
+}
+
+.headingpart {
+    width: 100%;
+    border: 2px solid white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainlogo {
+    display: flex;
+    width: 70px;
+    gap: 20px;
+    padding: 20px;
+    margin-left: 30px;
+}
+
+.mainlogo p {
+    font-size: 50px;
+    font-family: "Bebas Neue", sans-serif;
+    color: white;
+
+}
+
+.mainlogo img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.socials {
+    display: flex;
+    height: 50px;
+    padding: 20px;
+    gap: 40px;
+    position: relative;
+    top: 30px;
+    margin: 20px;
+}
+
+.socials img {
+    width: 60px;
+    height: 60px;
+}
+
+
+.mainpart {
+    display: flex;
+    font-family: "Bebas Neue", sans-serif;
+    color: white;
+
+}
+
+.wrapper {
+    display: flex;
+    gap: 40px;
+    width: 100%;
+    padding: 20px;
+}
+
+.wrapper h1 {
+    border-bottom: 3px solid rgb(255, 255, 255);
+    width: 60px;
+    letter-spacing: 10px;
+}
+
+
+
+.company {
+    width: 100%;
+    padding: 20px;
+
+}
+
+.services {
+    width: 100%;
+    padding: 20px;
+
+
+}
+
+.account {
+    width: 100%;
+    padding: 20px;
+
+
+}
+
+.course {
+    width: 100%;
+    padding: 20px;
+
+}
+
+.subscribe {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.subscribe input {
+    width: 300px;
+    height: 35px;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 20px;
+
+}
+
+.subscribe button {
+    width: 308px;
+    height: 35px;
+    font-family: "Bebas Neue", sans-serif;
+    color: rgb(28, 43, 102);
+    background-color: #dedede;
+    border: none;
+    font-size: 25px;
+    border-radius: 5px;
+}
+
+.copyright {
+    display: flex;
+    justify-content: space-between;
+    background: rgb(14, 21, 50);
+    font-family: "Bebas Neue", sans-serif;
+    color: rgb(158, 158, 158);
+    padding: 20px;
+}
